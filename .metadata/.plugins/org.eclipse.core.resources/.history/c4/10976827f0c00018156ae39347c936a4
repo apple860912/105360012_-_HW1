@@ -1,0 +1,20 @@
+package sample11;
+
+public class sample11 {
+
+
+	private static int inum;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			
+			double dum = 160.5;
+			
+			System.out.println("身高是"+dum+"公分");
+			System.out.println("指定給int型態的變數");
+			
+			inum = (int) dum;
+			System.out.println("身高是"+inum+"公分");
+	}
+
+}
